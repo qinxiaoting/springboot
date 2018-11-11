@@ -14,7 +14,7 @@ import org.apache.catalina.filters.RemoteIpFilter;
 import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-
+ 
 /**
  * 我们常在项目中会使用filters用于调用日志、排除有XSS威胁的字符、执行权限验证等等；
  * Spring Boot 自动添加了 OrderedCharacterEncodingFilter 和 HiddenHttpMethodFilter，
